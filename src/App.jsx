@@ -10,11 +10,14 @@ import Header from "./components/Header";
 import Prices from "./components/about/Prices";
 import Image from "./components/about/Image";
 import Location from "./components/about/Location";
+import Refdemo from "./components/Refdemo";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Refdemo />
+      {/* routing için*/}
+      {/* <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,16 +27,17 @@ function App() {
             <Route path="Location" element={<Location />}></Route>
             <Route path="Prices" element={<Prices />}></Route>
           </Route>
-
-          {/* <Route path='/About' element={<About/>}/> 
+<>
+           <Route path='/About' element={<About/>}/> 
           <Route path='Image' element={<Image/>}></Route>
           <Route path='Location' element={<Location/>}></Route>
-          <Route path='Prices' element={<Prices/>}></Route>   */}
+          <Route path='Prices' element={<Prices/>}></Route>   
+<>          
 
           <Route path="/Product" element={<Product />} />
           <Route path="/Service" element={<Service />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 }

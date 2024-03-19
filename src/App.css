@@ -1,47 +1,49 @@
-.nav{
+.nav {
   background-color: lightgrey;
   width: 100%;
   padding: 20px;
 }
 
-.nav>ul{
+.nav > ul {
   list-style-type: none;
   display: flex;
   column-gap: 10px;
-  
 }
 
-.about{
+.about {
   padding: 10px;
-  background-color:bisque;
+  background-color: bisque;
 }
 
 .product {
-padding: 20px;
-background-color: lightgray;
-display: flex;
-column-gap: 2%;
-}
-
-.prod{
-  width: 20%;
-  height: 300px;
-  padding: 10px;
-  background-color: brown ;
-}
-
-.service{
   padding: 20px;
   background-color: lightgray;
   display: flex;
   column-gap: 2%;
-
-
 }
 
-.serv{
+.prod {
   width: 20%;
   height: 300px;
   padding: 10px;
-  background-color:teal ;
+  background-color: brown;
+}
+
+.service {
+  padding: 20px;
+  background-color: lightgray;
+  display: flex;
+  column-gap: 2%;
+}
+
+.serv {
+  width: 20%;
+  height: 300px;
+  padding: 10px;
+  background-color: teal;
+}
+
+.refdemo {
+  padding: 20px;
+  background-color: lightgreen;
 }
